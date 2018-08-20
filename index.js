@@ -20,5 +20,11 @@ return distft;
 }
 
 function distanceTravelledInFeet(num1, num2){
-
+  let dist;
+  if(num1 > num2) {
+    dist = num1- num2;
+  } else {
+    dist = num2 - num1;
+  }
+  return dist;
 }
