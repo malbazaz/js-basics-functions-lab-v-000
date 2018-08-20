@@ -43,4 +43,4 @@ function calculatesFarePrice(num1, num2){
     stm = "cannot travel that far";
   }
   }
-}
+
