@@ -6,13 +6,13 @@ function distanceFromHqInBlocks(num){
   } else {
     dist = 42 - num
   }
+  return dist;
 }
 
 function distanceFromHqInFeet(){
-  
+
 }
 
 function distanceTravelledInFeet(){
-  
-}
 
+}
