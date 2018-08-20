@@ -34,7 +34,7 @@ function calculatesFarePrice(num1, num2){
   let stm;
   let price;
   if (dist<=400){
-
+    price = 0;
   }else if (dist>400 && dist<=2000){
 
   }else if (dist>2000 && dist<=2500){
