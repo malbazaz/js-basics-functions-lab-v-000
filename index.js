@@ -42,5 +42,5 @@ function calculatesFarePrice(num1, num2){
   }else {
   return  stm = "cannot travel that far";
   }
-
+  return price;
   }
