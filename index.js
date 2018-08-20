@@ -19,6 +19,6 @@ if(num > 42) {
 return distft;
 }
 
-function distanceTravelledInFeet(){
+function distanceTravelledInFeet(num1, num2){
 
 }
