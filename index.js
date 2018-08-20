@@ -38,7 +38,7 @@ function calculatesFarePrice(num1, num2){
   }else if (dist>400 && dist<=2000){
     price = (dist - 400)*0.02
   }else if (dist>2000 && dist<=2500){
-
+price = 25;
   }else {
   return  stm = "cannot travel that far";
   }
