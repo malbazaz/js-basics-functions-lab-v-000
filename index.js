@@ -22,9 +22,9 @@ return distft;
 function distanceTravelledInFeet(num1, num2){
   let dist;
   if(num1 > num2) {
-    dist = num1- num2;
+    dist = (num1- num2)*264;
   } else {
-    dist = num2 - num1;
+    dist = num2 - num1*264;
   }
   return dist;
 }
