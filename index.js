@@ -32,6 +32,7 @@ function distanceTravelledInFeet(num1, num2){
 function calculatesFarePrice(num1, num2){
   dist = distanceTravelledInFeet(num1,num2)
   let stm;
+  let price;
   if (dist<=400){
 
   }else if (dist>400 && dist<=2000){
