@@ -28,3 +28,7 @@ function distanceTravelledInFeet(num1, num2){
   }
   return dist;
 }
+
+function calculatesFarePrice(num1, num2){
+  dist = distanceTravelledInFeet(num1,num2)
+}
